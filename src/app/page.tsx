@@ -8,7 +8,7 @@ import { Timeline } from "@/components/timeline"
 import { ContactForm } from "@/components/contact-form"
 import { CreativeHero } from "@/components/creative-hero"
 import { FloatingNav } from "@/components/floating-nav"
-import { MouseFollower } from "@/components/mouse-follower"
+
 import { ScrollProgress } from "@/components/scroll-progress"
 import { SectionHeading } from "@/components/section-heading"
 import { GlassmorphicCard } from "@/components/glassmorphic-card"
@@ -17,7 +17,6 @@ export default function Portfolio() {
   return (
     
     <div className="min-h-screen bg-gradient-to-b from-zinc-900 via-zinc-900 to-black text-white overflow-hidden ">
-      <MouseFollower />
       <ScrollProgress />
       <FloatingNav />
 
@@ -87,16 +86,6 @@ export default function Portfolio() {
                   <span className="sr-only">LinkedIn</span>
                 </Button>
               </Link>
-              <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white"
-                >
-                  <Twitter className="h-5 w-5" />
-                  <span className="sr-only">Twitter</span>
-                </Button>
-              </Link>
               <Link href="mailto:nidhirawat519@gmail.com">
                 <Button
                   variant="ghost"
@@ -153,17 +142,18 @@ export default function Portfolio() {
             <div className="space-y-6">
               <GlassmorphicCard>
                 <p className="text-lg text-zinc-300">
-                  I'm a passionate software engineer with experience building web applications and digital products. I
+                  I'm a passionate web & mobile developer with experience building web applications and digital products. I
                   specialize in frontend development with React and Next.js, but I'm also comfortable working with
                   backend technologies.
                 </p>
                 <p className="text-lg text-zinc-300 mt-4">
-                  My journey in tech started with a strong foundation in software development. I've worked with various
-                  companies to create intuitive, performant, and accessible digital experiences.
+                My journey in tech began with a strong passion for building impactful digital solutions. 
+                I’ve worked on real-world projects like CampusConnect and Elara, and contributed to hackathon
+                apps such as FASAL. With hands-on experience in Flutter, full-stack development, and UI/UX design, 
+                I focus on creating intuitive, responsive, and user-centric digital experiences.
                 </p>
                 <p className="text-lg text-zinc-300 mt-4">
-                  When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-                  and staying up-to-date with the latest industry trends.
+                  When I’m not coding, I enjoy exploring new technologies, contributing to creative projects in college societies, and staying updated with the latest trends in design and development.
                 </p>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8">
@@ -238,65 +228,65 @@ export default function Portfolio() {
               title="AI Travel Planner"
               description="An AI Travel Planner platform built with React.js, Firebase and Google API."
               tags={["React.js", "TailwindCSS", "Firebase", "Google API"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              image="/images/aitripplanner.png?height=400&width=600"
+              demoUrl="https://ai-trip-planner-pied-mu.vercel.app/"
+              repoUrl="https://github.com/nidhir08/ai-trip-planner"
             />
             <ProjectCard
               title="Expense Tracker"
               description="A money management application with tracking all your expenses and savings."
               tags={["Next.js", "React.js", "Tailwind CSS", "Supabase"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              image="/images/ExpenseTracker.png?height=400&width=600"
+              demoUrl="https://expense-tracker-azure-kappa.vercel.app/"
+              repoUrl="https://github.com/nidhir08/Expense-Tracker"
             />
             <ProjectCard
               title="Campus Connect"
               description="A platform to connect all the societies under one roof."
               tags={["Java", "JDBC", "Servlets", "JSP"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              image="/images/CampusConnect.png"
+              demoUrl="https://drive.google.com/file/d/1f9UDtx2Mw687XP4H2Hi6-tmFQn4plxc3/view?usp=sharing"
+              repoUrl="https://github.com/nidhir08/CampusConnect"
             />
             <ProjectCard
               title="Movie Recommender System"
               description="A Machine Learning application to suggest you the best 10 movies from your previous watches."
-              tags={["Jupyter Notebook", "Kaggle", "Streamlit"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              tags={["Jupyter Notebook", "Kaggle", "Streamlit","Numpy","Pandas"]}
+              image="/images/MovieRecommender.png"
+              demoUrl="https://movierecommendermachinelearning-tmhd8nqgeaswdgkky83sy6.streamlit.app/"
+              repoUrl="https://github.com/nidhir08/MovieRecommenderMachineLearning"
             />
             <ProjectCard
               title="Hotel Management System"
               description="A Hotel Management System where we can book hotel as per our choice and admin can confirm the booking and so on."
               tags={["React", "Weather API", "Chart.js", "Styled Components"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              image="/images/HotelManagement.png"
+              demoUrl="https://drive.google.com/file/d/17WKVDLtGsSbvhE6wpgcG_kIv82C-B-et/view?usp=drive_link"
+              repoUrl="https://github.com/nidhir08/hotel-management-system"
             />
              <ProjectCard
               title="Elara: An E-commerce Platform"
               description="Elara is an e-commerce platform where you can buy anything from your choice."
               tags={["Flutter", "Dummy.json", "Firebase", "RazorpayAPI"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              image="/images/Elara.png"
+              demoUrl="https://drive.google.com/file/d/1a29JGwH2uQGR58iIcRYHEEOc2j6KNE79/view?usp=sharing"
+              repoUrl="https://github.com/nidhir08/Elara"
             />
              <ProjectCard
               title="Fasal"
               description="Fasal is a mobile application which connect farmers directly to the retailers ensuring no middlemen involved."
               tags={["Flutter", "Dummy.json", "Firebase", "RazorpayAPI"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              image="/images/Fasal.png"
+              demoUrl="https://drive.google.com/file/d/1NDYU4KfDMzcqDgB0dmfFIibIDAyrzZFx/view?usp=sharing"
+              repoUrl="https://github.com/nidhir08/SIH-Project-FASAL"
             />
             <ProjectCard
               title="Portfolio Website"
               description="This portfolio website built with Next.js and Tailwind CSS."
               tags={["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              image="/images/Portfolio.png"
+              demoUrl="https://nidhi-s-portfolio-z6or.vercel.app/"
+              repoUrl="https://github.com/nidhir08/Nidhi-s-Portfolio"
             />
           </div>
         </div>
@@ -338,7 +328,9 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">Email</div>
-                    <div className="font-medium">nidhirawat519@gmail.com</div>
+                    <div className="font-medium">
+                      <a href="mailto:nidhirawat519@gmail.com"><u>nidhirawat519@gmail.com</u></a>
+                     </div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -347,7 +339,9 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">LinkedIn</div>
-                    <div className="font-medium">https://linkedin.com/in/nidhi-rawat-333721260/</div>
+                    <div className="font-medium">
+                      <a href=" https://linkedin.com/in/nidhi-rawat-333721260/"><u>Nidhi's LinkedIn</u></a>
+                     </div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -356,7 +350,8 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">GitHub</div>
-                    <div className="font-medium">https://github.com/nidhir08</div>
+                    <div className="font-medium">
+                      <a href="https://github.com/nidhir08"><u>Nidhi's Github</u></a></div>
                   </div>
                 </div>
               </div>
@@ -406,16 +401,6 @@ export default function Portfolio() {
               >
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
-              </Button>
-            </Link>
-            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <Button
-                variant="ghost"
-                size="icon"
-                className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white"
-              >
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
               </Button>
             </Link>
             <Link href="mailto:nidhirawat519@gmail.com">
