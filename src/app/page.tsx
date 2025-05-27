@@ -259,7 +259,7 @@ export default function Portfolio() {
             <ProjectCard
               title="Hotel Management System"
               description="A Hotel Management System where we can book hotel as per our choice and admin can confirm the booking and so on."
-              tags={["React", "Weather API", "Chart.js", "Styled Components"]}
+              tags={["HTML", "CSS", "PHP", "SQL"]}
               image="/images/HotelManagement.png"
               demoUrl="https://drive.google.com/file/d/17WKVDLtGsSbvhE6wpgcG_kIv82C-B-et/view?usp=drive_link"
               repoUrl="https://github.com/nidhir08/hotel-management-system"
