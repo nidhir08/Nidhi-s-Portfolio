@@ -176,7 +176,7 @@ export default function Portfolio() {
                 </div>
 
                 <div className="mt-8 text-center">
-                  <a href="/resume.pdf" download>
+                  <a href="/Nidhi's_Resume.pdf" download>
                   <Button className="bg-zinc-800 hover:bg-zinc-700 text-white ">Download Resume</Button>
                   </a>
                 </div>
