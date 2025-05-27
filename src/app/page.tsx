@@ -275,7 +275,7 @@ export default function Portfolio() {
              <ProjectCard
               title="Fasal"
               description="Fasal is a mobile application which connect farmers directly to the retailers ensuring no middlemen involved."
-              tags={["Flutter", "Dummy.json", "Firebase", "RazorpayAPI"]}
+              tags={["Flutter", "Firebase", "RazorpayAPI"]}
               image="/images/Fasal.png"
               demoUrl="https://drive.google.com/file/d/1NDYU4KfDMzcqDgB0dmfFIibIDAyrzZFx/view?usp=sharing"
               repoUrl="https://github.com/nidhir08/SIH-Project-FASAL"
